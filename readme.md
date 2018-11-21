@@ -8,6 +8,19 @@
 
 ## Install
 
-`script`
-git clone 
+```bash
+$ git clone git@github.com:muhamadsyahril/laravel-todo.git
+$ composer update --no-scripts
+$ php artisan key:generate
+```
+Setting DB
 
+```bash
+$ php artisan migrate
+```
+
+Running
+
+```bash
+$ php artisan serve
+```
